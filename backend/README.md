@@ -25,15 +25,16 @@ npm install
 ##YOU ONLY NEED TO THIS ONCE!! NEVER PUSH config.js after changing the password!!**
 
 in config.js file
-replace the "PASSWORD" in 
+replace the "USERNAME" and "PASSWORD" in 
 ```
+const mongodb_username = "USERNAME"
 const mongodb_pass = "PASSWORD"
 ```
-with the password shared privately for GIFTCODE_ADMIN
+with the username and password shared privately
 
-run the below command only once to untrack src/config.js
+run the below command only once to untrack config.js
 ```
-git update-index --assume-unchanged src/config.js
+git update-index --assume-unchanged config.js
 ```
 
 ## Start the project
